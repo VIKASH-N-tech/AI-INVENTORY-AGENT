@@ -1,0 +1,6 @@
+{
+  "name": "AETHER AI – Smart Inventory Management System",
+  "description": "An award-winning futuristic enterprise inventory dashboard and routing control suite powered by AI forecasting, spatial interactive maps, and smart supplier analytics.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

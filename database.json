@@ -1,0 +1,438 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "sku": "EL-SENS-302",
+      "name": "Smart IoT Temperature Sensor",
+      "description": "High-precision ambient thermal and humidity monitoring sensor with BLE support.",
+      "category": "Electronics",
+      "stockLevel": 145,
+      "unit": "pcs",
+      "price": 2125,
+      "cost": 975,
+      "minStock": 50,
+      "warehouseId": "wh-1",
+      "supplierId": "sup-1",
+      "lastUpdated": "2026-07-10T18:03:13.867Z"
+    },
+    {
+      "id": "prod-2",
+      "sku": "EL-BATT-088",
+      "name": "Lithium Polymer Battery 3000mAh",
+      "description": "Rechargeable flat-pack batteries for portable IoT gear. Safety certified.",
+      "category": "Electronics",
+      "stockLevel": 22,
+      "unit": "pcs",
+      "price": 1060,
+      "cost": 440,
+      "minStock": 60,
+      "warehouseId": "wh-1",
+      "supplierId": "sup-1",
+      "lastUpdated": "2026-07-10T18:03:13.867Z"
+    },
+    {
+      "id": "prod-3",
+      "sku": "HW-SCW-M8",
+      "name": "M8 Industrial Steel Screws",
+      "description": "Zinc-plated high tensile hexagonal head fasteners, pack of 500.",
+      "category": "Hardware",
+      "stockLevel": 450,
+      "unit": "packs",
+      "price": 1530,
+      "cost": 660,
+      "minStock": 100,
+      "warehouseId": "wh-2",
+      "supplierId": "sup-3",
+      "lastUpdated": "2026-07-10T18:03:13.867Z"
+    },
+    {
+      "id": "prod-4",
+      "sku": "PK-BOX-02",
+      "name": "Recycled Corrugated Cardboard Boxes",
+      "description": "Double-walled shipping cartons, flat packed. Dimensions 30x20x15cm. Pack of 50.",
+      "category": "Packaging",
+      "stockLevel": 8,
+      "unit": "packs",
+      "price": 2975,
+      "cost": 1190,
+      "minStock": 30,
+      "warehouseId": "wh-3",
+      "supplierId": "sup-2",
+      "lastUpdated": "2026-07-10T18:03:13.867Z"
+    },
+    {
+      "id": "prod-5",
+      "sku": "MD-BAND-100",
+      "name": "Sterile Medical Adhesive Bandages",
+      "description": "Hypoallergenic breathable skin-tone bandages, box of 100.",
+      "category": "Medical",
+      "stockLevel": 1200,
+      "unit": "boxes",
+      "price": 765,
+      "cost": 180,
+      "minStock": 200,
+      "warehouseId": "wh-1",
+      "supplierId": "sup-4",
+      "lastUpdated": "2026-07-10T18:03:13.867Z"
+    },
+    {
+      "id": "prod-6",
+      "sku": "EL-MCU-772",
+      "name": "Apex 32-bit Microcontroller Chip",
+      "description": "Low-power high-performance ARM Cortex system-on-chip with hardware security keys.",
+      "category": "Electronics",
+      "stockLevel": 14,
+      "unit": "pcs",
+      "price": 640,
+      "cost": 260,
+      "minStock": 150,
+      "warehouseId": "wh-1",
+      "supplierId": "sup-1",
+      "lastUpdated": "2026-07-10T18:03:13.867Z"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup-1",
+      "name": "Chennai Techtronics Pvt Ltd",
+      "contactName": "Karthik Raja",
+      "email": "sales@chennaitechtronics.in",
+      "phone": "+91-44-2455-0192",
+      "category": "Electronics",
+      "rating": 4.8,
+      "performanceScore": 94,
+      "activeOrdersCount": 1
+    },
+    {
+      "id": "sup-2",
+      "name": "Kovai Sustainable Packaging",
+      "contactName": "Senthil Kumar",
+      "email": "orders@kovaipack.in",
+      "phone": "+91-422-255-0144",
+      "category": "Packaging",
+      "rating": 4.2,
+      "performanceScore": 82,
+      "activeOrdersCount": 0
+    },
+    {
+      "id": "sup-3",
+      "name": "Madurai Fasteners & Alloys",
+      "contactName": "Murugan Swamy",
+      "email": "support@maduraifasteners.in",
+      "phone": "+91-452-255-0812",
+      "category": "Hardware",
+      "rating": 3.5,
+      "performanceScore": 71,
+      "activeOrdersCount": 1
+    },
+    {
+      "id": "sup-4",
+      "name": "Trichy Bio-Pharma Group",
+      "contactName": "Dr. Meenakshi Sundaram",
+      "email": "logistics@trichybiopharma.co.in",
+      "phone": "+91-431-255-0177",
+      "category": "Medical",
+      "rating": 4.9,
+      "performanceScore": 98,
+      "activeOrdersCount": 0
+    }
+  ],
+  "purchaseOrders": [
+    {
+      "id": "po-101",
+      "supplierId": "sup-1",
+      "supplierName": "Chennai Techtronics Pvt Ltd",
+      "status": "Pending",
+      "totalAmount": 96000,
+      "items": [
+        {
+          "productId": "prod-2",
+          "productName": "Lithium Polymer Battery 3000mAh",
+          "qty": 100,
+          "cost": 440
+        },
+        {
+          "productId": "prod-6",
+          "productName": "Apex 32-bit Microcontroller Chip",
+          "qty": 200,
+          "cost": 260
+        }
+      ],
+      "createdAt": "2026-07-06T18:03:13.867Z",
+      "expectedDeliveryDate": "2026-07-13T18:03:13.867Z"
+    },
+    {
+      "id": "po-102",
+      "supplierId": "sup-3",
+      "supplierName": "Madurai Fasteners & Alloys",
+      "status": "Completed",
+      "totalAmount": 132000,
+      "items": [
+        {
+          "productId": "prod-3",
+          "productName": "M8 Industrial Steel Screws",
+          "qty": 200,
+          "cost": 660
+        }
+      ],
+      "createdAt": "2026-06-26T18:03:13.867Z",
+      "expectedDeliveryDate": "2026-07-04T18:03:13.867Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "s-1",
+      "customerName": "Alpha Manufacturing",
+      "date": "2026-02-10",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Smart IoT Temperature Sensor",
+          "qty": 45,
+          "price": 2125
+        }
+      ],
+      "totalAmount": 95625
+    },
+    {
+      "id": "s-2",
+      "customerName": "Beta Electronics",
+      "date": "2026-02-18",
+      "items": [
+        {
+          "productId": "prod-2",
+          "productName": "Lithium Polymer Battery 3000mAh",
+          "qty": 30,
+          "price": 1060
+        }
+      ],
+      "totalAmount": 31800
+    },
+    {
+      "id": "s-3",
+      "customerName": "Omega Labs",
+      "date": "2026-03-05",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Smart IoT Temperature Sensor",
+          "qty": 65,
+          "price": 2125
+        }
+      ],
+      "totalAmount": 138125
+    },
+    {
+      "id": "s-4",
+      "customerName": "Alpha Manufacturing",
+      "date": "2026-03-20",
+      "items": [
+        {
+          "productId": "prod-3",
+          "productName": "M8 Industrial Steel Screws",
+          "qty": 80,
+          "price": 1530
+        }
+      ],
+      "totalAmount": 122400
+    },
+    {
+      "id": "s-5",
+      "customerName": "Gamma Robotics",
+      "date": "2026-04-12",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Smart IoT Temperature Sensor",
+          "qty": 95,
+          "price": 2125
+        },
+        {
+          "productId": "prod-2",
+          "productName": "Lithium Polymer Battery 3000mAh",
+          "qty": 80,
+          "price": 1060
+        }
+      ],
+      "totalAmount": 286675
+    },
+    {
+      "id": "s-6",
+      "customerName": "Beta Electronics",
+      "date": "2026-05-02",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Smart IoT Temperature Sensor",
+          "qty": 110,
+          "price": 2125
+        }
+      ],
+      "totalAmount": 233750
+    },
+    {
+      "id": "s-7",
+      "customerName": "Omega Labs",
+      "date": "2026-05-25",
+      "items": [
+        {
+          "productId": "prod-3",
+          "productName": "M8 Industrial Steel Screws",
+          "qty": 120,
+          "price": 1530
+        }
+      ],
+      "totalAmount": 183600
+    },
+    {
+      "id": "s-8",
+      "customerName": "Gamma Robotics",
+      "date": "2026-06-15",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Smart IoT Temperature Sensor",
+          "qty": 130,
+          "price": 2125
+        },
+        {
+          "productId": "prod-2",
+          "productName": "Lithium Polymer Battery 3000mAh",
+          "qty": 120,
+          "price": 1060
+        }
+      ],
+      "totalAmount": 403450
+    },
+    {
+      "id": "s-9",
+      "customerName": "Delta Medical",
+      "date": "2026-06-28",
+      "items": [
+        {
+          "productId": "prod-5",
+          "productName": "Sterile Medical Adhesive Bandages",
+          "qty": 400,
+          "price": 765
+        }
+      ],
+      "totalAmount": 306000
+    },
+    {
+      "id": "s-10",
+      "customerName": "Beta Electronics",
+      "date": "2026-07-01",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Smart IoT Temperature Sensor",
+          "qty": 155,
+          "price": 2125
+        }
+      ],
+      "totalAmount": 329375
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "wh-1",
+      "name": "Chennai Mega Hub",
+      "location": "Chennai, Tamil Nadu",
+      "capacity": 15000,
+      "usedSpace": 5400,
+      "rackLayout": {
+        "racksCount": 6,
+        "shelvesPerRack": 5
+      }
+    },
+    {
+      "id": "wh-2",
+      "name": "Coimbatore Depot",
+      "location": "Coimbatore, Tamil Nadu",
+      "capacity": 8000,
+      "usedSpace": 2100,
+      "rackLayout": {
+        "racksCount": 4,
+        "shelvesPerRack": 4
+      }
+    },
+    {
+      "id": "wh-3",
+      "name": "Madurai Transit Center",
+      "location": "Madurai, Tamil Nadu",
+      "capacity": 6000,
+      "usedSpace": 1200,
+      "rackLayout": {
+        "racksCount": 3,
+        "shelvesPerRack": 4
+      }
+    }
+  ],
+  "logs": [
+    {
+      "id": "l-1",
+      "timestamp": "2026-07-10T08:03:13.867Z",
+      "type": "Stock Out",
+      "description": "Fulfilled sale of 155 Temperature Sensors to Beta Electronics",
+      "user": "John Doe"
+    },
+    {
+      "id": "l-2",
+      "timestamp": "2026-07-09T18:03:13.867Z",
+      "type": "PO Created",
+      "description": "Created PO-101 for supplier Chennai Techtronics Pvt Ltd",
+      "user": "Sarah Jenkins"
+    },
+    {
+      "id": "l-3",
+      "timestamp": "2026-07-07T18:03:13.867Z",
+      "type": "Transfer",
+      "description": "Moved 200 boxes of M8 Screws from Coimbatore to Madurai Transit Center",
+      "user": "David Smith"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-1",
+      "type": "low_stock",
+      "title": "Critical Low Stock",
+      "message": "Lithium Polymer Battery 3000mAh is under threshold. (Current: 22, Min: 60)",
+      "date": "2026-07-10T17:03:13.867Z",
+      "read": false
+    },
+    {
+      "id": "n-2",
+      "type": "low_stock",
+      "title": "Out Of Stock Warning",
+      "message": "Recycled Corrugated Cardboard Boxes is practically depleted. (Current: 8, Min: 30)",
+      "date": "2026-07-10T13:03:13.867Z",
+      "read": false
+    },
+    {
+      "id": "n-3",
+      "type": "pending_delivery",
+      "title": "Upcoming PO Delivery",
+      "message": "PO-101 with 300 parts from Chennai Techtronics is due in 3 days.",
+      "date": "2026-07-10T06:03:13.867Z",
+      "read": false
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "name": "Sarah Jenkins",
+      "email": "sarah@aether.io",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "Logistics Coordinator"
+    },
+    {
+      "id": "user-1783706615352",
+      "name": "Aether Operator",
+      "email": "operator@aether.io",
+      "passwordHash": "",
+      "role": "Logistics Coordinator",
+      "picture": "",
+      "authProvider": "google"
+    }
+  ]
+}
